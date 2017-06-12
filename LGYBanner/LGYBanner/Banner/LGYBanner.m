@@ -161,7 +161,7 @@ static int const BannerItemsCount = 5;
 
     self.scrollView.contentOffset = CGPointMake(self.itemSize.width * 2, 0);
     
-    self.pageControl.center = CGPointMake(self.bounds.size.width * 0.5, self.bounds.size.height - 20);
+    self.pageControl.center = CGPointMake(self.bounds.size.width * 0.5, self.itemSize.height + y - 20);
     self.pageControl.currentPage = 0;
 }
 
