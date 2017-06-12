@@ -15,6 +15,10 @@
 		A42DFBBA1EEEAD61000BA8B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42DFBB81EEEAD61000BA8B4 /* LaunchScreen.storyboard */; };
 		A42DFBC51EEEAD62000BA8B4 /* LGYBannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A42DFBC41EEEAD62000BA8B4 /* LGYBannerTests.m */; };
 		A42DFBD01EEEAD62000BA8B4 /* LGYBannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A42DFBCF1EEEAD62000BA8B4 /* LGYBannerUITests.m */; };
+		A42DFBEE1EEEAF82000BA8B4 /* LGYBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A42DFBE91EEEAF82000BA8B4 /* LGYBanner.m */; };
+		A42DFBEF1EEEAF82000BA8B4 /* LGYBaseBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A42DFBEB1EEEAF82000BA8B4 /* LGYBaseBannerView.m */; };
+		A42DFBF01EEEAF82000BA8B4 /* LGYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A42DFBED1EEEAF82000BA8B4 /* LGYPageControl.m */; };
+		FEC03FC8FD4D0505816131CF /* libPods-LGYBanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AA8B336D927611D0AABC82 /* libPods-LGYBanner.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2363ACA20966ECF713FAFC6B /* Pods-LGYBanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGYBanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGYBanner/Pods-LGYBanner.debug.xcconfig"; sourceTree = "<group>"; };
+		3116C9D20B264CD796149C15 /* Pods-LGYBanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGYBanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGYBanner/Pods-LGYBanner.release.xcconfig"; sourceTree = "<group>"; };
 		A42DFBA71EEEAD61000BA8B4 /* LGYBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGYBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42DFBAB1EEEAD61000BA8B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A42DFBAD1EEEAD61000BA8B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,13 @@
 		A42DFBCB1EEEAD62000BA8B4 /* LGYBannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGYBannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42DFBCF1EEEAD62000BA8B4 /* LGYBannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGYBannerUITests.m; sourceTree = "<group>"; };
 		A42DFBD11EEEAD62000BA8B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42DFBE81EEEAF82000BA8B4 /* LGYBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGYBanner.h; sourceTree = "<group>"; };
+		A42DFBE91EEEAF82000BA8B4 /* LGYBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGYBanner.m; sourceTree = "<group>"; };
+		A42DFBEA1EEEAF82000BA8B4 /* LGYBaseBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGYBaseBannerView.h; sourceTree = "<group>"; };
+		A42DFBEB1EEEAF82000BA8B4 /* LGYBaseBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGYBaseBannerView.m; sourceTree = "<group>"; };
+		A42DFBEC1EEEAF82000BA8B4 /* LGYPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGYPageControl.h; sourceTree = "<group>"; };
+		A42DFBED1EEEAF82000BA8B4 /* LGYPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGYPageControl.m; sourceTree = "<group>"; };
+		D3AA8B336D927611D0AABC82 /* libPods-LGYBanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGYBanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC03FC8FD4D0505816131CF /* libPods-LGYBanner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,8 @@
 				A42DFBC31EEEAD62000BA8B4 /* LGYBannerTests */,
 				A42DFBCE1EEEAD62000BA8B4 /* LGYBannerUITests */,
 				A42DFBA81EEEAD61000BA8B4 /* Products */,
+				EAE882EA4F2D012704671C53 /* Pods */,
+				B2879F6E6207253B6EE6F2A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +117,7 @@
 		A42DFBA91EEEAD61000BA8B4 /* LGYBanner */ = {
 			isa = PBXGroup;
 			children = (
+				A42DFBE71EEEAF82000BA8B4 /* Banner */,
 				A42DFBAD1EEEAD61000BA8B4 /* AppDelegate.h */,
 				A42DFBAE1EEEAD61000BA8B4 /* AppDelegate.m */,
 				A42DFBB01EEEAD61000BA8B4 /* ViewController.h */,
@@ -140,6 +157,36 @@
 			path = LGYBannerUITests;
 			sourceTree = "<group>";
 		};
+		A42DFBE71EEEAF82000BA8B4 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				A42DFBE81EEEAF82000BA8B4 /* LGYBanner.h */,
+				A42DFBE91EEEAF82000BA8B4 /* LGYBanner.m */,
+				A42DFBEA1EEEAF82000BA8B4 /* LGYBaseBannerView.h */,
+				A42DFBEB1EEEAF82000BA8B4 /* LGYBaseBannerView.m */,
+				A42DFBEC1EEEAF82000BA8B4 /* LGYPageControl.h */,
+				A42DFBED1EEEAF82000BA8B4 /* LGYPageControl.m */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		B2879F6E6207253B6EE6F2A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3AA8B336D927611D0AABC82 /* libPods-LGYBanner.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAE882EA4F2D012704671C53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2363ACA20966ECF713FAFC6B /* Pods-LGYBanner.debug.xcconfig */,
+				3116C9D20B264CD796149C15 /* Pods-LGYBanner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A42DFBD41EEEAD62000BA8B4 /* Build configuration list for PBXNativeTarget "LGYBanner" */;
 			buildPhases = (
+				4A6D310CACA70EDFA5393FF0 /* [CP] Check Pods Manifest.lock */,
 				A42DFBA31EEEAD61000BA8B4 /* Sources */,
 				A42DFBA41EEEAD61000BA8B4 /* Frameworks */,
 				A42DFBA51EEEAD61000BA8B4 /* Resources */,
+				C833C6B06F8B961F83483129 /* [CP] Embed Pods Frameworks */,
+				14B24A951BA0B3079C458221 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +321,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14B24A951BA0B3079C458221 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGYBanner/Pods-LGYBanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A6D310CACA70EDFA5393FF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C833C6B06F8B961F83483129 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGYBanner/Pods-LGYBanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A42DFBA31EEEAD61000BA8B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42DFBEE1EEEAF82000BA8B4 /* LGYBanner.m in Sources */,
 				A42DFBB21EEEAD61000BA8B4 /* ViewController.m in Sources */,
 				A42DFBAF1EEEAD61000BA8B4 /* AppDelegate.m in Sources */,
 				A42DFBAC1EEEAD61000BA8B4 /* main.m in Sources */,
+				A42DFBEF1EEEAF82000BA8B4 /* LGYBaseBannerView.m in Sources */,
+				A42DFBF01EEEAF82000BA8B4 /* LGYPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,10 +528,12 @@
 		};
 		A42DFBD51EEEAD62000BA8B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2363ACA20966ECF713FAFC6B /* Pods-LGYBanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 38V368WVKA;
 				INFOPLIST_FILE = LGYBanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.LGYBanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,10 +542,12 @@
 		};
 		A42DFBD61EEEAD62000BA8B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3116C9D20B264CD796149C15 /* Pods-LGYBanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 38V368WVKA;
 				INFOPLIST_FILE = LGYBanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.LGYBanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +623,7 @@
 				A42DFBD61EEEAD62000BA8B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A42DFBD71EEEAD62000BA8B4 /* Build configuration list for PBXNativeTarget "LGYBannerTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +632,7 @@
 				A42DFBD91EEEAD62000BA8B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A42DFBDA1EEEAD62000BA8B4 /* Build configuration list for PBXNativeTarget "LGYBannerUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +641,7 @@
 				A42DFBDC1EEEAD62000BA8B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
