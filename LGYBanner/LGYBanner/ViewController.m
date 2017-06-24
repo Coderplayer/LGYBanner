@@ -20,13 +20,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    CGRect frame = CGRectMake(0, 30, [UIScreen mainScreen].bounds.size.width, 300);
+//    CGRect frame = CGRectMake(0, 30, [UIScreen mainScreen].bounds.size.width, 300);
     NSArray *bannerMs = @[@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9"];
-    LGYBanner *banner = [LGYBanner bannerWithFrame:frame withDelegate:self withLocalImagesGroup:bannerMs withPlacehoderName:nil];
+    LGYBanner *banner = [LGYBanner bannerWithFrame:CGRectZero withDelegate:self withLocalImagesGroup:bannerMs withPlacehoderName:nil];
 
-    banner.bannersGapMargin = 6;
+    banner.bannersGapMargin = 20;
     [self.view addSubview:banner];
     self.banner = banner;
+    
+    [banner mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.left.right.equalTo(self.view);
+        make.height.mas_equalTo(300);
+    }];
     
     UILabel *selL = [[UILabel alloc] init];
     selL.textAlignment = NSTextAlignmentCenter;
@@ -45,7 +50,7 @@
 #pragma mark - <HCBannerDelegate>
 - (CGSize)sizeForItemInBannerView:(LGYBanner *)bannerView
 {
-    return CGSizeMake(400, 250);
+    return CGSizeMake(800, 250);
 }
 
 - (void)lgyBanner:(LGYBanner *)banner didSelectBannerIndex:(NSInteger)index

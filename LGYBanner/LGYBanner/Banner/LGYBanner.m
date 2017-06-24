@@ -146,7 +146,7 @@ static int const BannerItemsCount = 5;
 {
     [super layoutSubviews];
     CGFloat y = (self.bounds.size.height - self.itemSize.height) * 0.5;
-    self.scrollView.frame = CGRectMake((self.bounds.size.width - self.itemSize.width) / 2, y, self.itemSize.width, self.itemSize.height);
+    self.scrollView.frame = CGRectMake((self.bounds.size.width - self.itemSize.width) * 0.5, y, self.itemSize.width, self.itemSize.height);
     self.scrollView.contentSize = CGSizeMake(self.itemSize.width * BannerItemsCount, self.itemSize.height);
 //    // 计算scrollView内容
 
@@ -155,7 +155,7 @@ static int const BannerItemsCount = 5;
     for (int i = 0; i<BannerItemsCount; i++) {
         LGYBaseBannerView *bannerV = self.scrollView.subviews[i];
         
-        CGFloat banX = self.bannersGapMargin + i * (self.itemSize.width);
+        CGFloat banX = i * (self.itemSize.width);//self.bannersGapMargin + 
         bannerV.frame = CGRectMake(banX, 0, self.itemSize.width , self.itemSize.height);
     }
 

@@ -23,8 +23,8 @@
     if (self = [super initWithFrame:frame]) {
         
         UIImageView *imageV = [[UIImageView alloc] init];
-        imageV.layer.cornerRadius = 5.0;
-        imageV.layer.masksToBounds = YES;
+//        imageV.layer.cornerRadius = 5.0;
+//        imageV.layer.masksToBounds = YES;
         [self addSubview:imageV];
 
         _imageView = imageV;
